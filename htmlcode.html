@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>local storage</title>
+  </head>
+  <body>
+
+    <section class="container">
+      <form id="my-form">
+        <h1>Add Expense</h1>
+        <div class="msg"></div>
+        <div>
+          <label for="expense">Choose Expense amount:</label>
+          <input type="text" id="expense">
+        </div>
+        <div>
+          <label for="description">Choose description:</label>
+          <input type="text" id="description">
+        </div>
+        
+          <label for="category"> Choose a Category:<input list="browsers" name="browser">
+            <datalist id="browsers">
+              <option value="movie">
+              <option value="restaurent">
+              <option value="park">
+              <option value="shopping">
+              <option value="office">
+            </datalist>
+        <input class="btn" type="submit" value="Add Expense">
+      </form>
+
+      <ul id="users"></ul>
+
+      <!-- <ul class="items">
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+        <li class="item">Item 3</li>
+      </ul> -->
+    </section>
+    
+
+    <script src="main2.js"></script>
+  </body>
+</html>
